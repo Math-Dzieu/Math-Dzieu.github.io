@@ -34,25 +34,6 @@
 									<li><a href="Projets Professionnel.html">Projets Professionnel</a></li>
 								</ul>
 							</li>
-							<li>
-								<a href="#">Layouts</a>
-								<ul>
-									<li><a href="left-sidebar.html">Left Sidebar</a></li>
-									<li><a href="right-sidebar.html">Right Sidebar</a></li>
-									<li><a href="no-sidebar.html">No Sidebar</a></li>
-									<li>
-										<a href="#">Submenu</a>
-										<ul>
-											<li><a href="#">Option 1</a></li>
-											<li><a href="#">Option 2</a></li>
-											<li><a href="#">Option 3</a></li>
-											<li><a href="#">Option 4</a></li>
-										</ul>
-									</li>
-								</ul>
-							</li>
-							<li><a href="elements.html">Elements</a></li>
-							<li><a href="#" class="button primary">Sign Up</a></li>
 						</ul>
 					</nav>
 				</header>
@@ -62,27 +43,54 @@
 				<div id="main" class="wrapper style1">
 					<div class="container">
 						<header class="major">
-							<h2>Formations</h2>
-							<p>Ici sont présentées toutes les formations que j'ai poursuivi</p>
+							<h2>Projets Professionnels</h2>
 						</header>
 					
-						<h2>Ingénieur informatique</h2>
-							<p>
-							<span class="image left"><img src="images/ESIEA.jpg" alt="" /></span>
-							Je suis actuellement en formation en école d'ingénieur informatique à l'ESIEA.
-							J'effectue mon parcours d'ingénieur spécialisé en Intelligence Artificielle et Donnée
-							</p>			
-							<a href="IngenieurInformatique.html" class="button">En savoir plus...</a>
-							
-							</br></br><hr>
-							
-						<h2>DUT GEII</h2>
+						<h2>Banc de test</h2>
+						<div class="row gtr-150">
+							<div class="col-8 col-12-medium">
+								<!-- Content -->
+									<section id="content">
+										<a href="#" class="image fit"><img src="images/BancDeTest.jpg" alt="" /></a>
+										<h3>Problèmatique</h3>
+										<p>Suite à la création d'une nouvelle carte électronique pour un système de réservation/utilisation de voiture présent dans des parc automobile, l'entreprise a souhaité mettre en place un banc de test afin de valider le fonctionnement de chacune des cartes avant de les déployer.</br>
+										Afin de vérifier le bon fonctionnement des cartes, l'entreprise à souhaité faire passer les cartes sur un banc de test qui à pour but de faire fonctionner chaque module de la carte et de confirmer s'ils sont fonctionnel.</br>
+										La réalisation de ce projet est de courte porté puisque le stage pour lequel j'ai été pris est d'une durée de 12 semaines.
+										</p>
+										<h3>Réalisation</h3>
+										<p>
+										Afin de tester quelques module de la carte qui n'ont pas de documentation, j'ai du effectuer de l'ingénierie inversée (appelé reverse ingeniering) afin de lire les trames de la communication entre l'ordinateur et la carte électronique.</br>
+										Une fois avoir compris le fonctionnement des modules sans documentation et m'étre renseigné sur les autres modules j'ai du mettre en place un programme en langage Python.</br> 
+										Le programme à pour but de faire fonctionner chaque module et de voir si celui-ci répond. En fin de programme un récapitulatif est affiché sur l'écran indiquant si la carte est opérationnelle ou sur quel composant un problème est intervenu.</br>
+										Il est alors possible d'essayer une nouvelle carte ou bien de refaire le test sur la même carte.</br>
+										Si on choisi de tester une nouvelle carte, un code barre est imprimé grpâce à une imprimante Zebra connecté via le programme. Le code barre représente le numéro de série que l'on colle sur la carte et on ajoutes les informations de la carte dans un fichier Json afin d'avoir une traçabilité sur ce qu'on a déployé.
+										</p>
+									</section>
+							</div>
+							<div class="col-4 col-12-medium">
 
-							<p>
-							<span class="image left"><img src="images/IUT_Villetaneuse.jpg" alt="" /></span>
-							J'ai effectué une formation en Génie Électrique et Informatique Industrielle (GEII) au sein de l'Institut Universitaire de Technologie (IUT) appartenant au groupe des Universités Paris 13 de Villetaneuse.
-							</p>
-							<a href="DUTGEII.html" class="button">En savoir plus...</a>
+								<!-- Sidebar -->
+									<section id="sidebar">
+										<section>
+											<h3>Difficultés rencontrées</h3>
+											<p>
+											Lors du projet, il y avait plusieurs composant qui n'avait pas de documentation.</br>
+											J'ai alors passer par une méthode de reverse ingeniering afin de comprendre ce qu'il se passait lors de la communication</br>
+											Cela m'a fait couté quelque jours afin de vraiment avoir le fonctionnement et le mettre en place dans le programme.
+											</p>
+										</section>
+										<hr />
+										<section>
+											<h3>Amélioration</h3>
+											<p>
+											C'était un de mes premiers projets en Python, il y a surement quelques amélioration à effectuer afin de rendre le programme plus performant et rapide</br>
+											Le programme pouvait durer jusqu'à 15 secondes en comptant l'impression et le test de chaque module</br>
+											</p>
+										</section>
+									</section>
+
+							</div>
+						</div>
 							
 					</div>
 
@@ -91,19 +99,21 @@
 
 
 
+
 			<!-- Footer -->
 				<footer id="footer">
 					<ul class="icons">
-						<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
-						<li><a href="#" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-						<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
-						<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-						<li><a href="#" class="icon solid alt fa-envelope"><span class="label">Email</span></a></li>
+						<li><a href="https://www.facebook.com/mathieu.dziedzic/" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
+						<li><a href="https://fr.linkedin.com/in/mathieu-dziedzic-868689147" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+						<li><a href="https://www.instagram.com/math.3d/" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+						<li><a href="https://github.com/Math-Dzieu/" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+						<li><a href="mailto:mathdzie@gmail.com" class="icon solid alt fa-envelope"><span class="label">Email</span></a></li>
 					</ul>
 					<ul class="copyright">
 						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 					</ul>
 				</footer>
+
 
 		</div>
 
